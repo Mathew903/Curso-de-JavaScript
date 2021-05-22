@@ -1,0 +1,45 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+header {
+	background-image: linear-gradient(
+		-225deg,
+		#ff057f 0%,
+		#8d0b93 50%,
+		#321575 100%
+	);
+	display: grid;
+	grid-template-columns: repeat(2, max-content);
+	padding: 20px;
+	justify-content: space-between;
+}
+
+.nav__title {
+	font-size: 2.5rem;
+}
+
+.title {
+	margin: 0 45px;
+}
+
+.nav__menu {
+	margin-top: 1.5rem;
+	font-size: 1.5rem;
+}
+
+.nav__link {
+	color: #ccc;
+	text-decoration: none;
+	margin: 0 55px;
+}
+
+.nav__link:hover {
+	color: #ddd;
+	text-decoration: underline;
+	padding: 10px;
+	text-align: center;
+	border-radius: 15px;
+}

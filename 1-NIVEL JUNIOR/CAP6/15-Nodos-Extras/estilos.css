@@ -1,0 +1,29 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body {
+	text-align: center;
+}
+
+.h2 {
+	/* visibility: hidden; oculta el texto */
+	display: inline-block;
+	font-size: 50px;
+	color: #000;
+	margin: 50px;
+	padding: 10px;
+	background: transparent;
+	border: 2px solid #e86;
+	border-radius: 25px;
+	transition: all 300ms;
+	cursor: pointer;
+}
+
+.h2:hover {
+	background: #e86;
+	color: #fff;
+	transform: translate(-5px, -5px);
+}
